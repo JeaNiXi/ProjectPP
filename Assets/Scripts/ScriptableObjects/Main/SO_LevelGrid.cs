@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SO_LevelGrid : MonoBehaviour
+[CreateAssetMenu(fileName = "Empty Level",menuName = "Levels/New Level")]
+public class SO_LevelGrid : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int Width;
+    public int Height;
+    public bool[,] GridData;
 }
+
+
