@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    [SerializeField] private GameBoardBuilder boardBuilderPrefab;
 
     private void Awake()
     {
@@ -18,15 +17,8 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(this);
         }
     }
-
     private void Start()
     {
-        InitializeBoard();
-    }
 
-    private void InitializeBoard()
-    {
-        GameBoardBuilder mainGameBoard = Instantiate(boardBuilderPrefab, Vector3.zero, Quaternion.identity);
-        mainGameBoard.BuildBoard();
     }
 }

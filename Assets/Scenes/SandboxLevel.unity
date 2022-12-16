@@ -236,7 +236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5b2e3467dc64946b60ff71cc5f3807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardBuilderPrefab: {fileID: 2968265003746803284, guid: a325ee7c22f697347b1b6773e8552f43, type: 3}
 --- !u!4 &2100221853
 Transform:
   m_ObjectHideFlags: 0
